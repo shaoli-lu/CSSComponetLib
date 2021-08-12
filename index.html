@@ -7,6 +7,9 @@
     <title>UI components lib</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
   
     <link rel="apple-touch-icon" sizes="205x154" href="favicon.png">
@@ -20,8 +23,9 @@
       <h1 class="text-center">UI CSS components</h1>
 
       <h2>Avatar design</h2>
-      <img src="http://placehold.it/50x50" alt="" class="avatar">
-      <img src="http://placehold.it/50x50" alt="" class="avatar-small">
+      <img src="50x50.png" alt="" class="avatar">
+      <img src="50x50.png" alt="" class="avatar-small">
+      <!-- https://placehold.it/50x50 -->
       <br><br><br>
       <h2>Button design</h2>
 	  <br>
@@ -31,7 +35,7 @@
 <br> <br><br>
       <h2>Dropdown design</h2>
       <div class="dropdown">
-        <img src="http://placehold.it/50x50" alt="" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown">
+        <img src="50x50.png" alt="" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown">
         <ul class="dropdown-menu" aria-labelledby="navbar-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
@@ -59,7 +63,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-4">
           <div class="card">
-            <img src="http://placehold.it/50x50" alt="" class="avatar card-user">
+            <img src="50x50.png" alt="" class="avatar card-user">
             <span class="card-category">POPULAR</span>
             <div class="card-description">
               <h3>Stripe</h3>
@@ -69,7 +73,7 @@
         </div>
         <div class="col-xs-12 col-sm-4">
           <div class="card">
-            <img src="http://placehold.it/50x50" alt="" class="avatar card-user">
+            <img src="50x50.png" alt="" class="avatar card-user">
             <span class="card-category">POPULAR</span>
             <div class="card-description">
               <h3>Stripe</h3>
@@ -79,7 +83,7 @@
         </div>
         <div class="col-xs-12 col-sm-4">
           <div class="card">
-            <img src="http://placehold.it/50x50" alt="" class="avatar card-user">
+            <img src="50x50.png" alt="" class="avatar card-user">
             <span class="card-category">POPULAR</span>
             <div class="card-description">
               <h3>Stripe</h3>
@@ -90,7 +94,7 @@
       </div>
       <br> <br> <br>
       <h2>Badge design</h2>
-      <img src="http://placehold.it/50x50" alt="" class="avatar">
+      <img src="50x50.png" alt="" class="avatar">
       <span class="badge">3</span>
       <br> <br> <br>
 
@@ -136,7 +140,7 @@
             <p>36</p>
           </div>
 
-          <img src="http://unsplash.it/200/120/?random" 
+          <img src="https://unsplash.it/200/120/?random" 
           alt="" class="product-image img-rounded">
 
           <div class="product-description">
@@ -157,7 +161,7 @@
             <p>26</p>
           </div>
 
-          <img src="http://unsplash.it/200/120/?random" alt="" class="product-image img-rounded">
+          <img src="https://unsplash.it/200/120/?random" alt="" class="product-image img-rounded">
 
           <div class="product-description">
             <h3>Intercom</h3>
@@ -177,7 +181,7 @@
             <p>16</p>
           </div>
 
-          <img src="http://unsplash.it/200/120/?random" alt="" class="product-image img-rounded">
+          <img src="https://unsplash.it/200/120/?random" alt="" class="product-image img-rounded">
 
           <div class="product-description">
             <h3>Intercom</h3>
@@ -195,8 +199,6 @@
     </div>
 
 
-    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  
   </body>
 </html>
